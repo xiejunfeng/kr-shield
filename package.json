@@ -1,0 +1,39 @@
+{
+  "name": "kr-shield",
+  "version": "1.0.0",
+  "description": "我们的目标是没有主要",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio test/wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.corp.36kr.com:f2e/kr-shield.git"
+  },
+  "author": "sky",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "chai-string": "^1.3.0",
+    "chai-things": "^0.2.0",
+    "deepmerge": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.0",
+    "gulp-webdriver": "^2.0.3",
+    "lodash": "^4.17.4",
+    "mochawesome": "^2.0.5",
+    "selenium-standalone": "^6.2.0",
+    "uuid": "^3.0.1",
+    "wdio-mocha-framework": "^0.5.9",
+    "wdio-phantomjs-service": "^0.2.2",
+    "wdio-spec-reporter": "^0.1.0",
+    "webdriverio": "^4.6.2"
+  }
+}
