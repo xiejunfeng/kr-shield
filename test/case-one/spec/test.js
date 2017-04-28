@@ -7,7 +7,7 @@ describe('test1', function() {
   before(async function() {
     // await browser.url(url);
     // console.log(1111111);
-    // await login.in(browser);
+    await login.in(browser);
   });
 
   it('检测商品的富文本内容', async function() {

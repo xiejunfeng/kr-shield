@@ -20,8 +20,11 @@ function getConf() {
     logLevel: 'error',
     coloredLogs: true,
     waitforTimeout: 20000,
-    connectionRetryTimeout: 90000,
+    connectionRetryTimeout: 50000,
     connectionRetryCount: 3,
+    // 设置错误以后 截屏所放置的地方；
+    screenshotPath: './errorShots/',
+    screenshotOnReject: true,
     framework: 'mocha',
     reporters: [costomReport],
     reporterOptions: {
